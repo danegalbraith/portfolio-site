@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/danegalbraith/portfolio-site#readme",
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^6.2.1"
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@vercel/analytics": "^0.1.8"
   }
 }
