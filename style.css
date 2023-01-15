@@ -28,7 +28,7 @@
 
   #tsparticles {
     background: black;
-    filter: blur(7.5rem);
+    filter: blur(6.5rem);
     height: 120%;
     width: 120%;
     position: fixed;
