@@ -78,11 +78,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 500px) {
-  .container {
-    top: 200px; 
-  } 
-} 
+
   
 h1 {
   color: white;
@@ -263,6 +259,14 @@ h3 {
 }
 
 @media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+  } 
+
+  h1 {
+    font-size: 32px;
+  }
+
   .socialButtons {
     display: none;
   } 
