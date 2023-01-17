@@ -29,8 +29,8 @@
   #tsparticles {
     background: black;
     filter: blur(6.5rem);
-    height: 120%;
-    width: 120%;
+    height: 140%;
+    width: 140%;
     position: fixed;
     top: -50px;
     left: -50px;
@@ -89,7 +89,7 @@ h1 {
 
 .workBadge span {
   margin: auto;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .2);
   padding: 10px 20px;
   border-radius: 100px;
 
@@ -115,7 +115,7 @@ __________________________________
   padding: 10px 12px;
   border-radius: 100px;
   text-decoration: none;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   user-select: none;
   pointer-events: none; 
 
@@ -135,7 +135,7 @@ __________________________________
   outline: none;
   /* outline-offset: 4px; */
   background-color: rgba(255, 255, 255, .24);
-  transition: 0.2s ease;
+  transition: 0.1s ease;
   box-shadow:   0px 0px 0px 4px white;
   -webkit-box-shadow:   0px 0px 0px 4px white;
   -moz-box-shadow:   0px 0px 0px 4px white;
@@ -187,7 +187,7 @@ h3 {
 .button {
   width: 80px;
   height: 80px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.2);
   border-radius: 24px;
   position: relative;
   transition: 0.5s;
