@@ -115,7 +115,7 @@ __________________________________
   padding: 10px 12px;
   border-radius: 100px;
   text-decoration: none;
-  transition: 0.2s ease;
+  transition: 0.1s ease;
   user-select: none;
   pointer-events: none; 
 
@@ -190,7 +190,7 @@ h3 {
   background: rgba(0,0,0,0.2);
   border-radius: 24px;
   position: relative;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .b1 {
