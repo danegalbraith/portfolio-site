@@ -1,7 +1,8 @@
 tsParticles.load("tsparticles", {
   autoPlay: true,
   background: {
-    color: { value: "#000000" },
+    // Background Color
+    color: { value: "#081c15" },
     image: "",
     position: "",
     repeat: "",
@@ -51,8 +52,8 @@ tsParticles.load("tsparticles", {
     },
     color: {
       //COLOR OPTIONS
-      //Default: value: ["#861AFA", "#2EA6E7", "#E22762", "#FFBA08"],
-      value: ["#19381f", "#eee82c", "#91cb3e", "#53a548", "#4c934c"],
+      value: ["#861AFA", "#2EA6E7", "#E22762", "#FFBA08"],
+      //value: ["#19381f", "#eee82c", "#91cb3e", "#53a548", "#4c934c"],
 
       animation: {
         h: {
