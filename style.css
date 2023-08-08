@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #131418;
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,14 +38,17 @@ body {
   left: 50%;
   display: flex;
   flex-direction: column;
+  width: 90%;
 }
 
 h1 {
   color: white;
   font-family: DM Sans, sans-serif;
+  font-style: normal;
   font-weight: 500;
-  font-size: 54px;
-  letter-spacing: -2px;
+  font-size: 80px;
+  letter-spacing: -3px;
+  line-height: 1.2em;
 
   text-transform: none;
   text-decoration: none;
@@ -59,14 +62,18 @@ h1 {
   font-size: 14px;
   letter-spacing: 0.7px;
   line-height: 1.2em;
-  padding: 8px 10px;
+  padding: 8px 0px;
   margin-bottom: 12px;
   user-select: none;
+  border: 1px solid white;
+  width: fit-content;
+  display: inline;
+  border-radius: 40px;
 }
 
 .workBadge span {
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: transparent;
   padding: 10px 20px;
   border-radius: 100px;
 }
@@ -99,7 +106,7 @@ __________________________________
   width: 90px;
   z-index: 0;
   top: 100%;
-  margin-top: 12px;
+  margin-top: 20px;
   margin-left: -72%;
 
   /* visibility: hidden; */
@@ -110,24 +117,25 @@ __________________________________
 .button:focus {
   outline: none;
   /* outline-offset: 4px; */
-  background-color: rgba(255, 255, 255, 0.24);
+  background-color: rgba(255, 255, 255, 0.34);
   box-shadow: 0px 0px 0px 4px white;
   -webkit-box-shadow: 0px 0px 0px 4px white;
   -moz-box-shadow: 0px 0px 0px 4px white;
   opacity: 1;
-  transition: 0.4s;
+  transition: 0.2s ease;
 }
 
 .button:active {
   background-color: rgba(255, 255, 255, 0.36);
   border-radius: 28px;
-  transition: 0.4s;
+  transition: 0.2s ease;
 }
 
 .button:focus .tooltiptext {
   visibility: visible;
   z-index: 100;
   opacity: 1;
+  margin-top: 20px;
 }
 
 .b1:hover .tooltiptext,
@@ -138,7 +146,8 @@ __________________________________
   /* visibility: visible; */
   opacity: 1;
   z-index: 100;
-  transition: 0.4s;
+  transition: 0.4s ease;
+  margin-top: 16px;
 }
 
 /*
@@ -165,9 +174,12 @@ h3 {
 .button {
   width: 80px;
   height: 80px;
-  background: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 24px;
   position: relative;
+  box-shadow: 0px 0px 0px 2px transparent;
+  -webkit-box-shadow: 0px 0px 0px 2px transparent;
+  -moz-box-shadow: 0px 0px 0px 2px transparent;
 }
 
 .b1 {
@@ -208,7 +220,7 @@ h3 {
 }
 
 .placeholder-text {
-  font-family: General-Regular, sans-serif;
+  font-family: DM, sans-serif;
   font-size: 16px;
 }
 
@@ -236,7 +248,7 @@ h3 {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 400;
     letter-spacing: -1px;
   }

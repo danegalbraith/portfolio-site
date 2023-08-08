@@ -73,8 +73,6 @@ tsParticles.load("tsparticles", {
           sync: true,
         },
         l: {
-          count: 0,
-          enable: false,
           offset: 0,
           speed: 1,
           decay: 0,
